@@ -1,0 +1,81 @@
+body{
+    background-image: url("tábua.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 450px;
+}
+
+.cabecalho{
+    text-align: center;
+    color: white;
+}
+
+.corpo{
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 25px;
+}
+
+.tabela{
+    background-color: rgba(222, 184, 135, 0.5);
+    border-radius: 25px;
+    padding: 10px 30px;
+}
+
+.rodape{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-radius: 25px;
+}
+
+img{
+    border-radius: 15px;
+    border: 3px solid burlywood;
+    width: 500px;
+    height: 350px;
+    cursor: grab;
+}
+
+table, th, td{
+    border: 2px dotted black;
+    width: 750px;
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 20px;
+}
+
+th{
+    padding: 10px;
+    font-size: 26px;  
+}
+
+button{
+    cursor: pointer;
+}
+
+a{
+    color: white;
+}
+
+@media all and (max-width: 820px){
+    img{
+        width: 250px;
+        height: 150px;
+    }
+}
+
+@media all and (max-width: 450px){
+    img{
+        width: 250px;
+        height: 150px;
+    }
+
+    table, th, td{
+        width: 350px;
+        font-size: 15px;
+        margin: auto;
+    }
+}
